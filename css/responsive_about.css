@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+/* 1600px */
+#about_section01 .main_title {
+    font-size: 120px;
+}
+.main_title, .main_subtitle {
+    font-size: 120px;
+}
+#about_section01 .main_title::before {
+    position: absolute;
+    content: '';
+    background: url(../img/company-plus.svg) no-repeat center/100px 100px;
+    top: -75px;
+    right: -80px;
+    width: 300px;
+    height: 300px;
+}
+
+#about_section01 .main_subtitle::before {
+    position: absolute;
+    content: '';
+    background: url(../img/company-&.svg) no-repeat center/100px 100px;
+    top: -75px;
+    left: -80px;
+    width: 300px;
+    height: 300px;
+}
+#about_section02 .loading_text {
+    font-size: 60px;
+}
+footer .aria_studio {
+    font-size: 180px;
+}
+
+.footer_flex {
+    flex-direction: column;
+    gap: 50px;
+}
+
+footer .footer_gnb {
+    gap: 5px;
+    margin-bottom: 200px;
+}
+/*  */
+
+/* 1440px */
+@media screen and (max-width: 1440px) {
+    #about_section02 .loading_text {
+        font-size: 45px;
+    }
+    footer .aria_studio {
+        font-size: 160px;
+    }
+}
+/*  */
+
+/* 1280px */
+@media screen and (max-width: 1280px) {
+    #about_section01 .main_title {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .main_title, .main_subtitle {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    #about_section01 .main_title::before {
+        background: url(../img/company-plus.svg) no-repeat center/65px 65px;
+        top: -110px;
+        right: -110px;
+        width: 300px;
+        height: 300px;
+    }
+    
+    #about_section01 .main_subtitle::before {
+        background: url(../img/company-&.svg) no-repeat center/65px 65px;
+        top: -110px;
+        left: -110px;
+        width: 300px;
+        height: 300px;
+    }
+    #about_section02 .loading_text {
+        font-size: 38px;
+    }
+    footer .aria_studio {
+        font-size: 120px;
+    }
+}
+
+/*  */
+
+/* 1024px */
+@media screen and (max-width: 1024px) {
+    footer .aria_studio {
+        font-size: 92px;
+    }
+}
+/*  */
+
+/* 900px */
+@media screen and (max-width: 900px) {
+    #about_section01 .main_title {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .main_title, .main_subtitle {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .about_flex {
+        width: 100%;
+        flex-direction: column;
+    }
+    .about_flex .about_flex_left, .about_flex .about_flex_right {
+        width: 100%;
+    }
+    footer {
+        padding: 25px;
+    }
+
+    footer h4 {
+        font-size: 24px;
+    }
+
+    .footer_flex {
+        flex-direction: column;
+    }
+
+    .footer_left {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    footer .aria_studio {
+        font-size: 92px;
+    }
+}
+/* 768px */
+@media screen and (max-width: 768px) {
+    #about_section01 .main_title {
+        font-size: 55px;
+        line-height: 55px;
+    }
+    .main_title, .main_subtitle {
+        font-size:55px;
+        line-height: 55px;
+    }
+    #about_section01 .main_title::before {
+        background: url(../img/company-plus.svg) no-repeat center/55px 55px;
+        top: -130px;
+        right: -130px;
+        width: 300px;
+        height: 300px;
+    }
+    
+    #about_section01 .main_subtitle::before {
+        background: url(../img/company-&.svg) no-repeat center/55px 55px;
+        top: -130px;
+        left: -130px;
+        width: 300px;
+        height: 300px;
+    }
+    #about_section02 .loading_text {
+        font-size: 24px;
+    }
+    .subpage_main_title {
+        font-size: 50px;
+        font-weight: 300;
+    }
+    #about_section04 h2 {
+        font-size: 50px;
+        font-weight: 300;
+    }
+    #gnb {
+        position: fixed;
+        top: 0;
+        transform: translateX(-50%);
+        z-index: 999;
+        height: 100px;
+        line-height: 100px;
+        text-align: right;
+
+    }
+
+    #gnb button {
+        width: 60px;
+        height: 50px;
+        margin-right: 50px;
+    }
+
+    #gnb button:before {
+        width: 60px;
+
+    }
+
+    #gnb button:after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        right: 0;
+        width: 60px;
+        height: 5px;
+        background-color: black;
+
+    }
+
+    #gnbmenu>ul {
+        /* position: absolute;
+        top: -25px;
+        left: 0; */
+        position: fixed;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        border: 1px solid black;
+        width: 100vh;
+        text-align: center;
+        line-height: 40px;
+        z-index: 999;
+    }
+    footer .footer_right {
+        display: none;
+    }
+    footer .footer_left {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer .aria_studio {
+        font-size: 78px;
+    }
+}
+/*  */
+
+/* 700px */
+@media screen and (max-width: 700px) {
+    
+    #about_section02 .loading_text {
+        flex-direction: column;
+    }
+    .history_title_left {
+        font-size: 24px;
+    }
+    footer .footer_left {
+        font-size: 12px;
+    }
+    footer .aria_studio {
+        font-size: 44px;
+    }
+}
+
+/* 430px */
+@media screen and (max-width: 430px) {
+    
+    #about_section01 .main_title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .main_title, .main_subtitle {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    #about_section01 .main_title::before {
+        background: url(../img/company-plus.svg) no-repeat center/25px 25px;
+        top: 0;
+        right: 0;
+        width: 25px;
+        height: 25px;
+    }
+    
+    #about_section01 .main_subtitle::before {
+        background: url(../img/company-&.svg) no-repeat center/25px 25px;
+        top: 0;
+        left: 0;
+        width: 25px;
+        height: 25px;
+    }
+    .history_title_left {
+        font-size: 14px;
+        font-weight: 200;
+        padding-left: 20px;
+    }
+    .history_title_left strong {
+        margin-right: 10px;
+    }
+    .business_left p strong {
+        font-size: 24px;
+    }
+}

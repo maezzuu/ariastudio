@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation with AOS</title>
+    <link rel="stylesheet" href="css/aria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <style>
+        #text-container {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 2rem;
+            margin: 20px;
+        }
+
+        #text-container span {
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        /* 기본 스타일 */
+        .aos-animate span {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .text_wrap {
+    position: relative;
+    font-family: Arial, sans-serif; /* 기본 폰트 설정 */
+}
+
+.animated-text {
+    display: inline-block;
+    position: relative;
+    overflow: hidden; /* 텍스트가 컨테이너를 넘지 않도록 설정 */
+    white-space: nowrap; /* 줄바꿈을 방지 */
+    font-size: 1.5rem; /* 폰트 크기 설정 (조정 가능) */
+}
+
+.animated-text::before {
+    content: attr(data-text); /* 데이터 속성의 값을 사용 */
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap; /* 줄바꿈을 방지 */
+    overflow: hidden; /* 텍스트가 컨테이너를 넘지 않도록 설정 */
+    width: 0; /* 초기 너비 설정 */
+    border-right: .15em solid orange; /* 커서 효과 */
+    animation: typing 5s steps(100, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="text_wrap">
+        <p class="animated-text">
+            No matter who you are<br>
+            i would still be friends with you
+        </p>
+        <div class="text_wrap_animation">
+            <img src="img/" alt="">
+            <p>enter the Virtual Universe?</p>
+            <button>YES</button>
+            <button>NO</button>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500, // 애니메이션 지속 시간
+            easing: 'ease-in-out', // 애니메이션 이징 함수
+        });
+    </script>
+</body>
+</html>
