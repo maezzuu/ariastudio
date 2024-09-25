@@ -344,14 +344,10 @@ footer .footer_gnb {
         width: 10px;
         height: 10px;
     }
-    #gnb button {
-        margin-right: 70px;
-    }
 
     #gnbmenu>ul {
         width: 100%;
     }
-
 
     footer .footer_left {
         font-size: 12px;

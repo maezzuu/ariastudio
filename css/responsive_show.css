@@ -183,10 +183,6 @@ footer .footer_gnb {
 /* 700px */
 @media screen and (max-width:700px) {
 
-    #gnb button {
-        margin-right: 70px;
-    }
-
     #gnbmenu>ul {
         width: 100%;
     }

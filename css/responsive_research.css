@@ -193,10 +193,6 @@ footer .footer_gnb {
         font-size: 20px;
     }
 
-    #gnb button {
-        margin-right: 70px;
-    }
-
     #gnbmenu>ul {
         width: 100%;
     }
@@ -220,10 +216,11 @@ footer .footer_gnb {
     .research_title p {
         font-size: 18px;
     }
-    
+
     .research_list {
         padding: 0;
     }
+
     .research_list p:first-child {
         margin: 20px auto;
         width: 25px;
@@ -231,12 +228,15 @@ footer .footer_gnb {
         line-height: 25px;
         font-size: 18px;
     }
+
     .research_sub {
         font-size: 14px;
     }
+
     .subpage_title {
         font-size: 14px;
     }
+
     .search_box input[type='text'],
     .search_box input[type='search'] {
         height: 40px;
