@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main  # main 브랜치에 푸시될 때마다 실행
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Display code link
+        run: echo "Code is available at: https://github.com/${{ github.repository }}/tree/${{ github.ref }}"
