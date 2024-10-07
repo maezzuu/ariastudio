@@ -43,7 +43,7 @@ footer .footer_gnb {
     }
 
     .bg_text {
-        font-size: 250px;
+        font-size: 220px;
     }
 
     #section05 .main_subtitle {
@@ -85,8 +85,8 @@ footer .footer_gnb {
         font-size: 40px;
     }
 
-    #section03 .bg_text {
-        font-size: 200px;
+    .bg_text {
+        font-size: 150px;
 
     }
 
@@ -152,7 +152,9 @@ footer .footer_gnb {
         font-size: 70px;
         line-height: 70px;
     }
-
+    .bg_text {
+        font-size: 100px;
+    }
     #section05 .main_title {
         font-size: 80px;
         line-height: 80px;
@@ -226,8 +228,8 @@ footer .footer_gnb {
 
     /*section01*/
 
-    #section03 .bg_text {
-        font-size: 100px;
+    .bg_text {
+        font-size: 80px;
 
     }
 
@@ -586,7 +588,7 @@ footer .footer_gnb {
     }
 
     #section03 .bg_text {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .section04_text p {
