@@ -127,6 +127,10 @@ footer .footer_gnb {
 
 /* 768px */
 @media screen and (max-width: 768px) {
+    header {
+        left: 25px;
+    }
+
     .main_title {
         font-size: 80px;
     }
@@ -135,7 +139,12 @@ footer .footer_gnb {
         font-size: 14px;
         margin-bottom: 50px;
     }
-
+    #news_section01 {
+        padding: 150px 25px 0;
+    }
+    #news_section02 {
+        margin: 0 25px;
+    }
     #gnb {
         position: fixed;
         top: 0;
@@ -150,7 +159,7 @@ footer .footer_gnb {
     #gnb button {
         width: 60px;
         height: 50px;
-        margin-right: 50px;
+        margin-right: 25px;
     }
 
     #gnb button:before {
@@ -184,7 +193,6 @@ footer .footer_gnb {
         line-height: 40px;
         z-index: 999;
     }
-
     footer .footer_right {
         display: none;
     }
@@ -196,6 +204,9 @@ footer .footer_gnb {
 
     footer .aria_studio {
         font-size: 78px;
+    }
+    #footer {
+        padding: 0px;
     }
 }
 
