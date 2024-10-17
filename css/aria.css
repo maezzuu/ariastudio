@@ -17,6 +17,7 @@ body {
     font-family: "REM", "Pretendard Variable"
 }
 
+/* header */
 header {
     width: 95%;
     position: fixed;
@@ -30,10 +31,9 @@ header {
     transition: transform 0.3s ease;
     z-index: 100;
 }
-
-
 /* header */
 
+/* footer */
 footer {
     padding: 100px 25px 25px;
     background-color: #efefef;
@@ -94,6 +94,7 @@ footer .aria_studio {
 
 /* footer */
 
+/* nav gnb */
 #gnb {
     width: 100%;
     position: fixed;
@@ -191,11 +192,10 @@ footer .aria_studio {
     font-size: 80px;
     font-weight: 300;
 }
+/* nav gnb */
 
-/*  */
-
-
-/* gnb */
+/* index */
+/* section01 */
 #section01 {
     margin-top: 100px;
 }
@@ -280,15 +280,15 @@ footer .aria_studio {
     width: 100px;
     height: 100px;
 }
-
 /* section01 */
 
+/* section02 */
 #section02 video {
     width: 100%;
 }
-
 /* section02 */
 
+/* section03 */
 #section03 {
     position: relative;
 }
@@ -359,8 +359,9 @@ footer .aria_studio {
         transform: translateX(100%);
     }
 }
-
 /* section03 */
+
+/* section04 */
 #section04 {
     margin: 50px 50px 100px;
     border-bottom: 1px solid black;
@@ -377,9 +378,9 @@ footer .aria_studio {
     font-weight: 500;
     margin-bottom: 40px;
 }
-
 /* section04 */
 
+/* section05 */
 #section05 {
     position: relative;
     margin: 50px 50px 100px;
@@ -446,8 +447,6 @@ footer .aria_studio {
 
 
 /* 여기서부터 img hover시 나오는 애니메이션 */
-
-
 .img_area .img_wrap .img_eff .left_effect img {
     position: absolute;
     top: 5%;
@@ -483,6 +482,7 @@ footer .aria_studio {
 .img_area img:hover {
     transform: scale(1.2)
 }
+/* 여기까지 img hover시 나오는 애니메이션 */
 
 .img_area_text {
     margin: 100px 0;
@@ -532,7 +532,6 @@ footer .aria_studio {
 .viewmore_btn>a:hover::after {
     filter: invert(1);
 }
-
 /* section05 */
 
 #section06 {
