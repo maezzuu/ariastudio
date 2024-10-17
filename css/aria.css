@@ -534,6 +534,7 @@ footer .aria_studio {
 }
 /* section05 */
 
+/* section06 */
 #section06 {
     width: 100%;
     padding: 50px 50px 100px;
@@ -699,9 +700,9 @@ footer .aria_studio {
     background-color: rgb(0, 0, 0);
 
 }
-
 /* section06 */
 
+/* section07 */
 #section07 {
     background-color: black;
     color: white;
@@ -908,9 +909,9 @@ footer .aria_studio {
 #section07 .viewmore_btn>a:hover::after {
     filter: invert(0);
 }
-
 /* section07 */
 
+/* section08 */
 #section08 {
     padding: 0 50px;
 }
