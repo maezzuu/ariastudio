@@ -19,9 +19,12 @@
 
 <body>
     <div id="wrap">
+
+        <!-- header -->
         <header id="header"></header>
         <!-- header -->
 
+        <!-- nav -->
         <nav id="gnb">
             <button>
                 MENU
@@ -40,66 +43,76 @@
 
             </ul>
         </nav>
-        <!-- gnb -->
-        <section id="show_section01">
-            <p class="main_title"data-aos="fade-right">SHOWS</p>
-            <div class="sub_text">
-                <div class="sub_text_left">
-                    <p class="subpage_title">INNOVATIVE ENTERTAINMENT</p>
-                    <p class="subpage_text">아리아 스튜디오는 자체적인 기술 및 제작 역량을 바탕으로 아리아 오리지널 IP를 만들어나가고 있습니다.<br>
-                        영화, 드라마, 예능, VR 등 장르에 국한되지 않는 콘텐츠를 바탕으로 콘텐츠 시장의 새로운 엔터테인먼트 트렌드를 제시합니다.</p>
-                </div>
-                <div class="sub_text_right">
-                    <select name="options" id="options">
-                        <option value="option1">최신순</option>
-                        <option value="option2">오래된순</option>
-                        <option value="option2">추천순</option>
-                    </select>
-                </div>
-                
-            </div>
-            <div class="animation_line"></div>
-        </section>
-        <!-- show_section01 -->
+        <!-- nav -->
 
-        <section id="show_section02">
-            <div class="show_imglist">
-                <div class="show_img show_img01">
-                    <div class="show_img_box">
-                        <img src="img/show_img01.jpg" alt="showimg01">
+        <!-- main -->
+        <main>
+            <!-- show_section01 -->
+            <section id="show_section01">
+                <p class="main_title" data-aos="fade-right">SHOWS</p>
+                <div class="sub_text">
+                    <div class="sub_text_left">
+                        <p class="subpage_title">INNOVATIVE ENTERTAINMENT</p>
+                        <p class="subpage_text">아리아 스튜디오는 자체적인 기술 및 제작 역량을 바탕으로 아리아 오리지널 IP를 만들어나가고 있습니다.<br>
+                            영화, 드라마, 예능, VR 등 장르에 국한되지 않는 콘텐츠를 바탕으로 콘텐츠 시장의 새로운 엔터테인먼트 트렌드를 제시합니다.</p>
                     </div>
-                    <div class="show_flex">
-                        <div class="showimg_title">
-                            <h2>위대한 심판</h2>
+                    <div class="sub_text_right">
+                        <select name="options" id="options">
+                            <option value="option1">최신순</option>
+                            <option value="option2">오래된순</option>
+                            <option value="option2">추천순</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="animation_line"></div>
+            </section>
+            <!-- show_section01 -->
+
+            <!-- show_section01 -->
+            <section id="show_section02">
+                <div class="show_imglist">
+                    <div class="show_img show_img01">
+                        <div class="show_img_box">
+                            <img src="img/show_img01.jpg" alt="showimg01">
                         </div>
-                        <div class="showimg_text">
-                            <span>VIRTUAL</span>
-                            <span>INTERACTIVE</span>
-                            <span>GAME</span>
+                        <div class="show_flex">
+                            <div class="showimg_title">
+                                <h2>위대한 심판</h2>
+                            </div>
+                            <div class="showimg_text">
+                                <span>VIRTUAL</span>
+                                <span>INTERACTIVE</span>
+                                <span>GAME</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show_img show_img01">
+                        <div class="show_img_box">
+                            <img src="img/show_img02.jpg" alt="showimg02">
+                        </div>
+                        <div class="show_flex">
+                            <div class="showimg_title">
+                                <h2>아파트 - 리플리의세계</h2>
+                            </div>
+                            <div class="showimg_text">
+                                <span>MURTI GERNE</span>
+                                <span>INTERACTIVE</span>
+                                <span>DRAMA</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="show_img show_img01">
-                    <div class="show_img_box">
-                        <img src="img/show_img02.jpg" alt="showimg02">
-                    </div>
-                    <div class="show_flex">
-                        <div class="showimg_title">
-                            <h2>아파트 - 리플리의세계</h2>
-                        </div>
-                        <div class="showimg_text">
-                            <span>MURTI GERNE</span>
-                            <span>INTERACTIVE</span>
-                            <span>DRAMA</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- show_section02 -->
+            </section>
+            <!-- show_section02 -->
+        </main>
+        <!-- main -->
+
+        <!-- footer -->
+        <footer id='footer'></footer>
+        <!-- footer -->
     </div>
-    <footer id='footer'></footer>
-    </div>
+
 
     <script>
         AOS.init({ duration: 1000, easing: 'ease-in-out' })
